@@ -1,0 +1,170 @@
+#Feature{
+    background-color: #333333;
+    font-family:  sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    
+
+    h1{
+        font-size: 60px;
+        color: white;
+        margin-bottom: 30px;
+
+    }
+
+    .features{
+        display: flex;
+        // font-family:  sans-serif;
+        position: relative;
+        font-size: 20px;
+
+
+        .left{
+            .protocol, .desktop, .apps{
+                background: white;
+                width: 65%;
+                margin: auto;
+                border-radius: 30px;
+                padding: 50px 80px 50px 80px;
+                margin-bottom: 35px;
+                font-size: 16px;
+                text-align: left;
+                margin-left: 150px;
+                line-height: 30px;
+                
+                h4{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    margin-bottom: 20px;
+                }
+
+                ul{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    margin-left: 12px;
+
+                    li{
+                        line-height: 35px;
+                        font-size: 15px;
+                    }
+                }
+               
+            }
+
+            h2{
+                margin-bottom: 30px;
+                background: linear-gradient(to right, purple, rgb(218, 96, 139));
+                background-clip: text;
+                color: transparent;
+                display: inline-block;
+                font-weight: bolder;
+            }
+
+            h3{
+                font-weight: lighter;
+                margin-bottom: 25px;
+            }
+        }
+
+        .right{
+            div{
+                background: white;
+                width: 90%;
+                margin: auto;
+                border-radius: 30px;
+                padding: 50px 70px 50px 50px;
+                margin-bottom: 35px;
+                font-size: 16px;
+                text-align: left;
+                margin-left: -80px;
+                line-height: 30px;
+            
+                h2{
+                    margin-bottom: 30px;
+                    background: linear-gradient(to right, purple, rgb(218, 96, 139));
+                    background-clip: text;
+                    color: transparent;
+                    display: inline-block;
+                    font-weight: bolder;
+                }
+    
+                h3{
+                    font-weight: lighter;
+                    margin-bottom: 25px;
+                }
+                
+                
+            }
+
+            .mode{
+                background-color: black;
+                color: white;
+
+                h2{
+                    color: white;
+                }
+
+                h3{
+                    opacity: 0.5;
+                }
+                    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #Feature{
+        // margin-top: 30px;
+        padding-bottom: 30px;
+        // margin-top: 30px;
+
+        .Main{
+            width: 100%;
+            position: relative;
+            h1{
+                font-size: 27px;
+                text-align: left;
+                margin-left: 10px;
+               
+            }
+
+            .features{
+                display: block;
+                // width: 100%;
+
+                .left{
+                    width: 94%;
+                    // display: block;
+                    
+                    .protocol, .desktop, .apps{
+                        margin: 10px;
+                        width: 100%;
+                        padding: 10px;
+
+                        h2{
+                            font-size: 18px;
+                            margin-top: 10px;
+                        }
+                       
+                    }  
+                }
+
+                .right{
+                    width: 94%;
+
+                    div{
+                        margin: 10px;
+                        width: 100%;
+                        padding: 10px;
+
+                        h2{
+                            font-size: 18px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

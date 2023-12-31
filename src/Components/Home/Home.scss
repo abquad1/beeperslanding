@@ -1,0 +1,286 @@
+#home{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, #2b0f38,rgb(83, 4, 109),  rgb(6, 6, 35));
+    scroll-behavior: smooth;
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+
+        .iconBar{
+            color: #fff;
+            font-size: 25px;
+            display: none;
+        }
+        
+        .btn{
+            background: rgba( 256,256,256, 0.3);
+            height: 50px;
+            width: 250px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .jumbroton{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    
+        .text{
+            margin-top: 130px;
+            
+            h1{
+                color: #fff;
+                font-family: sans-serif;
+                font-size: 75px;
+            }       
+       }
+
+        .button{
+            position: absolute;
+            left: 44%;
+            margin-top: 30px;
+            
+             
+            .btn{
+                background: rgba( 256,256,256, 0.3);
+                height: 50px;
+                width: 200px;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                border: none;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .icon{
+                    margin-left: 10px;
+                }
+            }
+
+            .angleIcon{
+                color: white;
+                font-size: 25px;
+                margin-top: 40px;
+            
+            }
+        }
+
+        .socialIcons{
+            
+
+            img{
+                height: 80px;
+
+                &:nth-child(1){
+                    position: absolute;
+                    top: 20%;
+                    left: 8%;
+                    transform: skew(5deg,-5deg)
+                }
+
+                &:nth-child(2){
+                    position: absolute;
+                    top: 60%;
+                    left: 23%;
+                    transform: skew(-5deg,5deg);
+                }
+
+                &:nth-child(3){
+                    position: absolute;
+                    top: 10%;
+                    left: 40%;
+                    transform: skew(-5deg,5deg);
+                    height: 70px;
+
+                }
+
+                &:nth-child(4){
+                    position: absolute;
+                    top: 20%;
+                    left: 60%;
+                    height: 70px;
+                }
+
+                &:nth-child(5){
+                    position: absolute;
+                    top: 22%;
+                    left: 80%;
+                    transform: skew(-7deg,7deg)
+
+                }
+
+                &:nth-child(6){
+                    position: absolute;
+                    top: 60%;
+                    left: 82%;
+                    transform: skew(5deg,-5deg);
+                    height: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    #home{ 
+        // background-color: rgb(35, 30, 30);
+        .navbar{
+            background-color: rgb(35, 30, 30);
+            position: relative;
+            .logo{
+                img{
+                    width: 100px;
+                }
+            }
+
+            .button{
+                display: none;
+                // height: 0;
+                width: 100%;
+                margin-right: -10px;
+                left: 0;
+                top: -100%;
+            }
+
+            .dropButton{
+                display: block;
+                position: absolute;
+                top: 75%;
+                left: 0;
+                width: 100%;
+                background-color: #262525;
+                height: 80px;
+                z-index: 100;
+                 transition: height 0.5s ease;
+                 padding: 15px;
+            //   transform: ;
+
+                .btn{
+                        width: 85%;
+                        
+                        margin: auto;
+                        background-color: #333;
+                        // transition: transform 0.5s;
+                        // transform: scaleY(1);
+                }
+            }
+
+            .iconBar{
+            
+            display: block;
+            margin-top: -10px;
+        }
+        }
+
+        .jumbroton{
+            background-color: rgb(35, 30, 30);
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            padding-top: 50px;
+
+            .socialIcons{
+        
+                img{
+                    &:nth-child(1){
+                        position: absolute;
+                        top: -5%;
+                        // left: 8%;
+                        // transform: skew(5deg,-5deg);
+                        height: 45px;
+                    }
+    
+                    &:nth-child(2){
+                        position: absolute;
+                        top: 40%;
+                        left: 23%;
+                        transform: skew(-5deg,5deg);
+                        height: 45px;
+                        z-index: 20px;
+
+                    }
+    
+                    &:nth-child(3){
+                        position: absolute;
+                        top: 10%;
+                        left: 5%;
+                        transform: skew(-5deg,5deg);
+                        height: 45px;
+    
+                    }
+    
+                    &:nth-child(4){
+                        position: absolute;
+                        top: -5%;
+                        left: 60%;
+                        height: 45px;
+                    }
+    
+                    &:nth-child(5){
+                        position: absolute;
+                        top: 27%;
+                        left: 80%;
+                        transform: skew(-7deg,7deg);
+                        height: 45px;
+                        
+                    }
+    
+                    &:nth-child(6){
+                        position: absolute;
+                        top: 28%;
+                        left: 58%;
+                        transform: skew(5deg,-5deg);
+                        height: 45px;
+                    }
+                }
+            }
+
+                .text{
+                    width: 70%;
+                    margin: auto;
+
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+
+                .button{
+                    position: absolute;
+                    top: 10%;
+                    left: 25%;
+                    
+
+                    .btn{
+                        width: 150px;
+                        height: 50px;
+                        font-size: 15px;
+                        padding: 5px;
+                        margin-top: 30px;
+                    }
+
+                    .angleIcon{
+                        
+                        margin-top: 30px;
+                    
+                    }
+                }
+        }
+    }
+}

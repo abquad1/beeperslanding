@@ -1,0 +1,31 @@
+#sample{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 20%;
+    position: relative;
+
+    .chatSample{
+        text-align: center;
+        height: 100px;
+        
+        .chatImg{
+         height: 900px;
+         margin: -100px;   
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+        #sample{
+            margin-top: -90%;
+            position: relative;
+
+            .chatImg{
+                margin: auto;
+                width: 80%;
+                // position: relative;
+                // z-index: -;
+            }
+        }
+}
