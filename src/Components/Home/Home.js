@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../Home/Home.scss'
-import logo from '/Users/user/beeper/src/Images/jdzueyiu.png'
+import logo from '../Images/jdzueyiu.png'
 import { Link } from 'react-router-dom';
 // import { Link} from 'react-scroll';
 import { FaLongArrowAltRight, FaAngleDown, FaBars  } from "react-icons/fa";
@@ -11,12 +11,12 @@ import Network from '../Network/Network';
 import Features from '../Features/Features';
 import Cloud from '../Cloud/Cloud';
 import Footer from '../footer/Footer';
-import iMessage from '/Users/user/beeper/src/Images/62b04fca20d1f2d76085138d_iMessage.png'
-import Instagram from '/Users/user/beeper/src/Images/62b050040313820ed88f4bfb_Instagram.png'
-import Messenger from '/Users/user/beeper/src/Images/62b04ff8e7ad8fe034303445_Messenger.png'
-import Slack from '/Users/user/beeper/src/Images/62b04fec2513a532a4f1c6c6_Slack.png'
-import Twitter from '/Users/user/beeper/src/Images/62b0500e501088fff3334fc2_Twitter.png'
-import WhatsApp from '/Users/user/beeper/src/Images/62b05019442187e3a26259b6_Whatsapp.png'
+import iMessage from '../Images/62b04fca20d1f2d76085138d_iMessage.png'
+import Instagram from '../Images/62b050040313820ed88f4bfb_Instagram.png'
+import Messenger from '../Images/62b04ff8e7ad8fe034303445_Messenger.png'
+import Slack from '../Images/62b04fec2513a532a4f1c6c6_Slack.png'
+import Twitter from '../Images/62b0500e501088fff3334fc2_Twitter.png'
+import WhatsApp from '../Images/62b05019442187e3a26259b6_Whatsapp.png'
 import {motion} from 'framer-motion';
 
 

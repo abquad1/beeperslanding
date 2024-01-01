@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '/Users/user/beeper/src/Images/jdzueyiu.png'
+import logo from '../Images/jdzueyiu.png'
 import '../footer/Footer.scss'
 import { PiCopyright } from "react-icons/pi"
 

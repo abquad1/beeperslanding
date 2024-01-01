@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Cloud/Cloud.scss'
-import cloud from '/Users/user/beeper/src/Images/zmlolujo.png'
-import chats from '/Users/user/beeper/src/Images/648af12deb905c3acb5fe9c7_screenshot no background-p-1600.png'
+import cloud from '../Images/zmlolujo.png'
+import chats from '../Images/648af12deb905c3acb5fe9c7_screenshot no background-p-1600.png'
 import {easeIn, motion} from 'framer-motion'
 
 import { FaLongArrowAltRight, FaCheck } from "react-icons/fa";

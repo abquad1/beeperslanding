@@ -1,6 +1,6 @@
 import React from 'react'
-import founder1 from '/Users/user/beeper/src/Images/6283b767cd025bcd56e70868_60071637eae24c6e03b920ab_eric headshot 1.png'
-import founder2 from '/Users/user/beeper/src/Images/6283b7670d0b4a2afdf57def_60327efa1e2df1abee5a43fc_brad 1.png'
+import founder1 from '../Images/6283b767cd025bcd56e70868_60071637eae24c6e03b920ab_eric headshot 1.png'
+import founder2 from '../Images/6283b7670d0b4a2afdf57def_60327efa1e2df1abee5a43fc_brad 1.png'
 import '../textSection/TextSection.scss'
 import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
