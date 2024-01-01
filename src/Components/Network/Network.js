@@ -2,7 +2,7 @@ import React from 'react'
 import '../Network/Network.scss'
 import {motion} from 'framer-motion';
 import icon1 from '../Images/62b04fca20d1f2d76085138d_iMessage.png'
-import icon2 from '..c/Images/62b0500e501088fff3334fc2_Twitter.png'
+import icon2 from '../Images/62b0500e501088fff3334fc2_Twitter.png'
 import icon3 from '../Images/62b04fec2513a532a4f1c6c6_Slack.png'
 import icon4 from '../Images/62b050040313820ed88f4bfb_Instagram.png'
 import icon5 from '../Images/qmgv4axs.png'
