@@ -53,6 +53,7 @@ function TextSection() {
                             <h2>Co-founder</h2>
                         </Link>
 
+
                     </div>
 
                 </div>
